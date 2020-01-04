@@ -1,5 +1,5 @@
 const request = require('request');
-const scraperKey = process.env.SCRAPER_KEY || require('../configs').SCRAPER_KEY;
+const scraperKey = process.env.REACT_APP_SCRAPER_KEY;
 
 const AppActions = {
     getLazadaProducts: product => {
